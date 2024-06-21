@@ -1,7 +1,16 @@
-# Rope Skipping Counter
+# Alternate Leg Rope Skipping Counter
 
-Rope skipping real-time counting
+Alternate leg rope skipping real-time counting based on **[RopeSkippingCounter](https://github.com/chenwr727/RopeSkippingCounter)** from [chenwr727](https://github.com/chenwr727)
+
 ![](demo.gif)
+
+
+
+Features 
+
++ Alternate leg rope skipping count, instead of jumping rope with feet together
++ Millisecond counter is added
++ Ensuring FPS(frames per second) consistency between input and output videos
 
 ## Install
 ```
@@ -14,5 +23,8 @@ python rope_skipping_counter.py
 ```
 
 ## Thanks
+
++ https://github.com/chenwr727/RopeSkippingCounter
+
 * [mediapipe](https://github.com/google/mediapipe)
 * [pushup_counter](https://github.com/hacklavya/pushup_counter)
